@@ -1,3 +1,4 @@
+```
 provider "github" {
   token = "your git tokan"
 
@@ -28,3 +29,5 @@ resource "github_repository_file" "gitignore" {
   commit_message      = "Add .gitignore via Terraform"
   overwrite_on_create = true
 }
+
+```
