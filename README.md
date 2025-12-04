@@ -1,3 +1,4 @@
+```
 provider "github" {
   token = var.git_token
 
@@ -41,3 +42,4 @@ resource "github_repository_file" "testfile3" {
   overwrite_on_create = true
   autocreate_branch = true
 }
+```
